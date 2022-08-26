@@ -4,15 +4,9 @@ export function Pricing() {
 
   return (
     <>
-      <div>
-        <h1>pagina pricing</h1>
-      </div>
-
-      <div>
-        <Link to="product"/>
-      </div>
-
+      <h1><Link to="product">Show some products price</Link></h1>
       <Outlet/>
+      
     </>
   )
 }
